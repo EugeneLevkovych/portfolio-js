@@ -1,6 +1,7 @@
 .hero-section {
-  height: 812px;
+  /* height: 812px; */
   padding-top: 281px;
+  padding-bottom: 32px;
   background-color: inherit;
   background-image: url(/img/hero-img/hero-bg-mobile.phg);
   background-repeat: no-repeat;
@@ -20,14 +21,13 @@
   display: flex;
   gap: 4px;
   flex-wrap: wrap;
-  margin-bottom: 32px;
+  justify-content: center;
 }
 
-.hero-social-networks-link {
+.hero-social-networks-list-item {
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 60px;
   padding: 10px;
-  width: 37px;
   height: 37px;
   font-weight: 500;
   font-size: 14px;
