@@ -91,7 +91,7 @@
   width: 20px;
   height: 20px;
   mask-image: url('/img/about-me-img/icons.svg#icon-arr-down');
-  -webkit-mask-image: url('icon.svg');
+  -webkit-mask-image: url('/img/about-me-img/icons.svg#icon-arr-down');
   /* background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15 7.5L10 12.5L5 7.5' stroke='%23FAFAFA' stroke-width='2'/%3E%3C/svg%3E%0A"); */
 }
 
@@ -150,3 +150,57 @@
 }
 
 /* ------------------Swiper------------------------ */
+.swiper-flex-wrapper {
+  display: flex;
+}
+
+#a-m-sw-list-id {
+  display: flex;
+  height: 130px;
+}
+
+.a-m-sw-list-item {
+  width: 130px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 53px 0;
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: #fafafa;
+}
+
+.swiper-slide-active {
+  background-color: #ed3b44;
+}
+
+.a-m-swiper-button {
+  background-color: #1c1d20;
+  border: none;
+  padding: 20px 0 20px 55px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.a-m-sw-arrow-icon {
+  stroke: #3b3b3b;
+  fill: none;
+}
+
+.a-m-sw-arrow-icon:active {
+  stroke: #ed3b44;
+}
+
+/* Tablet*/
+@media screen and (min-width: 768px) {
+  .swiper {
+    /* width: 704px; */
+    height: 200px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  .swiper {
+    /* width: 1312px; */
+    height: 200px;
+  }
+}
