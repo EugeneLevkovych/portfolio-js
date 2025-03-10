@@ -6,6 +6,65 @@
   margin-bottom: 32px;
 }
 
+.projects-list {
+  margin-bottom: 32px;
+}
+
+#project-list-id .projects-list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-l-i-content-box {
+  padding: 32px;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  background-color: #fafafa;
+}
+.projects-l-i-content-box-skills {
+  display: inline-block;
+  border: 1px solid rgba(28, 29, 32, 0.2);
+  border-radius: 60px;
+  padding: 13px 18px;
+  height: 45px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #1c1d20;
+  text-align: center;
+}
+
+.projects-l-i-content-box-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  color: #1c1d20;
+  margin-top: 96px;
+  margin-bottom: 32px;
+}
+
+.projects-l-i-content-btn {
+  display: block;
+  text-align: center;
+  border-radius: 60px;
+  padding: 13px 0;
+  width: 141px;
+  height: 45px;
+  background: #ed3b44;
+}
+
+.projects-l-i-content-btn:active,
+.projects-l-i-content-btn:hover {
+  background-color: #e0373f;
+}
+
+.projects-l-i-img-box {
+  background-color: #242527;
+  padding: 100px 16px;
+  border-bottom-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
 .projects-arrow-box {
   display: flex;
   gap: 12px;
@@ -16,6 +75,25 @@
   .projects-section {
     margin-bottom: 96px;
   }
+
+  .projects-list {
+    margin-bottom: 64px;
+  }
+
+  .projects-l-i-content-box {
+    padding: 64px;
+  }
+
+  .projects-l-i-content-box-text {
+    font-size: 44px;
+    line-height: 1;
+    margin-top: 164px;
+  }
+
+  .projects-l-i-img-box {
+    padding: 120px 45px;
+  }
+
   .projects-arrow-box {
     gap: 20px;
   }
@@ -24,5 +102,26 @@
 @media only screen and (min-width: 1440px) {
   .projects-section {
     margin-bottom: 164px;
+  }
+
+  .projects-list-item div {
+    width: calc(100% / 2);
+  }
+
+  .projects-l-i-content-box {
+    border-top-right-radius: 0;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+  }
+
+  .projects-l-i-content-box-text {
+    margin-top: 223px;
+  }
+
+  .projects-l-i-img-box {
+    padding: 120px 37px;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
   }
 }

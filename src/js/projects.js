@@ -14,7 +14,6 @@ const swiperProjects = new Swiper('.swiper-2', {
   },
 
   navigation: {
-    // enabled: false,
     prevEl: '.projects-arrow-icon-left',
     nextEl: '.projects-arrow-icon-right',
   },
