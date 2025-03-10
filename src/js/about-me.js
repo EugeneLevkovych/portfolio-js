@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-const swiper = new Swiper('.swiper', {
+const swiperAboutMe = new Swiper('.swiper-1', {
   direction: 'horizontal',
   spaceBetween: 0,
   loop: true,

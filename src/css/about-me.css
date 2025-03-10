@@ -81,7 +81,6 @@
   color: rgba(250, 250, 250, 0.4);
   padding: 20px 0 32px;
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
   text-transform: uppercase;
@@ -179,7 +178,7 @@
   letter-spacing: -0.02em;
 }
 
-.swiper-slide-active {
+.a-m-sw-list-item.swiper-slide-active {
   background-color: #ed3b44;
 }
 

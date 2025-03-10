@@ -3,11 +3,6 @@
 }
 
 .benefits-section-heading {
-  font-weight: 600;
-  line-height: 1.5;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: rgba(250, 250, 250, 0.4);
   margin-bottom: 32px;
 }
 
@@ -47,11 +42,14 @@
   color: rgba(250, 250, 250, 0.6);
 }
 
-.benefits-list-btn {
+.benefits-link {
+  display: inline-block;
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 60px;
   width: 187px;
   height: 55px;
+  padding-top: 18px;
+  padding-bottom: 18px;
   font-weight: 500;
   letter-spacing: -0.02em;
   color: #fafafa;
@@ -69,7 +67,7 @@
   }
 
   .benefits-list-item {
-    width: 344px;
+    width: calc((100% - 16px) / 2);
   }
 }
 
@@ -88,11 +86,7 @@
     padding-left: 50%;
   }
 
-  .benefits-list-item {
-    width: 332px;
-  }
-
-  .benefits-list-btn {
+  .benefits-link {
     margin-left: 50%;
   }
 }
