@@ -56,6 +56,15 @@
   background-color: inherit;
   text-align: center;
 }
+
+.benefits-link:hover,
+.benefits-link:focus {
+  background-color: #ed3b44;
+}
+
+.benefits-link:active {
+  background-color: #b21d24;
+}
 /* Tablet*/
 @media screen and (min-width: 768px) {
   .benefits-section {

@@ -10,7 +10,7 @@
   margin-bottom: 32px;
 }
 
-#project-list-id .projects-list-item {
+.projects-list .projects-list-item {
   display: flex;
   flex-wrap: wrap;
 }
