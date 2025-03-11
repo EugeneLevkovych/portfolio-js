@@ -21,6 +21,7 @@
   border-top-left-radius: 24px;
   background-color: #fafafa;
 }
+
 .projects-l-i-content-box-skills {
   display: inline-block;
   border: 1px solid rgba(28, 29, 32, 0.2);
@@ -69,6 +70,18 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+}
+
+.projects-arrow-icon-left.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.projects-arrow-icon-right.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
 }
 /* Tablet*/
 @media screen and (min-width: 768px) {
