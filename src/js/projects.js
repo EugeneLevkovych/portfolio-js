@@ -3,10 +3,12 @@ import 'swiper/css/bundle';
 
 const swiperProjects = new Swiper('.swiper-2', {
   direction: 'horizontal',
+  speed: 1000,
   slidesPerView: 1,
   keyboard: {
     enabled: true,
     onlyInViewport: false,
+    pageUpDown: true,
   },
   mousewheel: {
     enabled: true,

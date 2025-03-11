@@ -84,8 +84,8 @@
 
 .ac-trigger.a-m-ac-button::after {
   content: '';
-  display: none;
-  /* z-index: -1; */
+  /* display: none; */
+  z-index: -1;
 }
 
 .ac.is-active .a-m-ac-arrow-icon {
