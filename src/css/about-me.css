@@ -82,7 +82,7 @@
   text-transform: uppercase;
 }
 
-.a-m-ac-button::after {
+.ac-trigger.a-m-ac-button::after {
   content: '';
   display: none;
   /* z-index: -1; */
