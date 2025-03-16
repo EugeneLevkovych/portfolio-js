@@ -80,12 +80,14 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  outline: none;
 }
 
 .ac-trigger.a-m-ac-button::after {
   content: '';
   /* display: none; */
   z-index: -1;
+ 
 }
 
 .ac.is-active .a-m-ac-arrow-icon {
